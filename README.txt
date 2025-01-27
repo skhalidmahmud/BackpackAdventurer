@@ -1,7 +1,13 @@
 1. install python 3.x.x
-2. 'pip install django' on cmd
+
+> open any folder and run on cmd
+>> python -m venv my_venv
+>> my_venv\Scripts\activate
+>> pip install Django
+-> django-admin version || for check
 3. 'pip freeze' for showing installed package
-4. 'django-admin startproject AnyProjectName' for start new project
+>> django-admin startproject AnyProjectName || for start new project
+
 5. 'python manage.py runserver' for running the server
 	'python manage.py runserver AnyPortNumber' like 5555 for change url port
 6. 'python manage.py migrate' >> next to runserver **for viewing the table, use 'DB Browser for SQLite**
